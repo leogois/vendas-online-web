@@ -2,5 +2,11 @@
   "editor.codeActionsOnSave": {
     "source.fixAll.eslint": true
   },
-  "eslint.validate": ["javascript"]
+  "eslint.validate": ["javascript"],
+  "editor.minimap.enabled": false,
+  "files.trimTrailingWhitespace": true,
+  "workbench.activityBar.visible": true,
+  "breadcrumbs.enabled": true,
+  "javascript.updateImportsOnFileMove.enabled": "always",
+  "explorer.compactFolders": false,
 }
