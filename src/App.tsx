@@ -1,4 +1,4 @@
-import LoginScreen from './modules';
+import LoginScreen from './pages/Login';
 
 function App() {
   return <LoginScreen />;

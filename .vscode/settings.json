@@ -8,5 +8,5 @@
   "workbench.activityBar.visible": true,
   "breadcrumbs.enabled": true,
   "javascript.updateImportsOnFileMove.enabled": "always",
-  "explorer.compactFolders": false,
+  "explorer.compactFolders": false
 }
