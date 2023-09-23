@@ -11,10 +11,8 @@ interface IInputProps extends InputPropsAntd {
 export const Input = ({ title, ...props }: IInputProps) => {
   return (
     <>
-      <div className={styles.userform}>
-        <p className={styles.titleuser}>{title}</p>
-        <InputAntd className={styles.input} {...props} />
-      </div>
+      <p className={styles.titleuser}>{title}</p>
+      <InputAntd className={styles.input} {...props} />
     </>
   );
 };

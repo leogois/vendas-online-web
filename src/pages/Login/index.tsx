@@ -9,13 +9,10 @@ const LoginScreen = () => {
       <div className={styles.containerlogin}>
         <div className={styles.limitedcontainer}>
           <img className={styles.logo} src="./logo.png" />
-
-          <p className={styles.titlelogin}>LOGIN</p>
-
+          <h1 className={styles.titlelogin}>LOGIN</h1>
           <Input type="email" title="USUÁRIO" placeholder="Digite seu email" />
-
           <Input type="password" title="SENHA" placeholder="Digite sua senha" />
-          <Button />
+          <Button type="primary" />
         </div>
       </div>
     </div>
