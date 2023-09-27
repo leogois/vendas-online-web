@@ -1,7 +1,10 @@
-import LoginScreen from './pages/Login';
+import LoginScreen from './modules/login';
 
 function App() {
-  return <LoginScreen />;
+  return (
+    <>
+      <LoginScreen />
+    </>
+  );
 }
-
 export default App;
